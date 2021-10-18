@@ -1,0 +1,41 @@
+exports.tags= [{
+    title:'javascript',
+    key:'Big1',
+    children:[{
+        title:'高级',
+        key:'Small1'
+    },{
+        title:'基础',
+        key:'Small2'
+    }]
+},{
+    title:'基础知识',
+    key:'Big2',
+    children:[{
+        title:'html类',
+        key:'Small3'
+    },{
+        title:'css类',
+        key:'Small4'
+    }]
+},{
+    title:'框架基础',
+    key:'Big3',
+    children:[{
+        title:'vue',
+        key:'Small5'
+    },{
+        title:'react',
+        key:'Small6'
+    }]
+},{
+    title:'其他',
+    key:'Big4',
+    children:[{
+        title:'数据请求',
+        key:'Small7'
+    },{
+        title:'杂项',
+        key:'Small8'
+    }]
+}]
